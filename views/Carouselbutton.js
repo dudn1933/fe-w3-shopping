@@ -2,10 +2,11 @@ const TRANS_RIGHT = "trans_right";
 const TRANS_LEFT = "trans_left";
 const ON = "on";
 const carouselSlide = document.querySelector(".carousel_slide");
-const RIGHT = document.querySelector(".right_button"); 
-const LEFT = document.querySelector(".left_button");
+const RIGHT = document.querySelector(".right"); 
+const LEFT = document.querySelector(".left");
 
-RIGHT.addEventListener('click', () => {
+
+RIGHT.addEventListener('click', (e) => {
     carouselSlide.classList.add(TRANS_RIGHT);
     carouselSlide.classList.add(ON);
     setTimeout(() => {

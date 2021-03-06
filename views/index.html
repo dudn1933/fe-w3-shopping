@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../stylesheets/index_header.css">
-    <link rel="stylesheet" href="../stylesheets/index_middle.css">
+    <link rel="stylesheet" href="./index_header.css">
+    <link rel="stylesheet" href="./index_middle.css">
     <!-- <link rel="stylesheet" href="fe-w3-shopping/public/stylesheets/index_header.css"> -->
     <!-- <link rel="stylesheet" href="fe-w3-shopping/public/stylesheets/index_middle.css"> -->
     <title>Document</title>
@@ -80,13 +80,18 @@
                         <div class="slider_box">
                             <div class="slider">
                                 <div class="carousel_slide"></div>
-                                <div>
+                                <div class="button_box">
                                     <button class="left">
                                         <div class="left_button"></div>
                                     </button>
                                     <button class="right">
                                         <div class="right_button"></div>
                                     </button>
+                                    <div class="carousel_dot_box">
+                                        <span class="carousel_dot"></span>
+                                        <span class="carousel_dot"></span>
+                                        <span class="carousel_dot"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -100,8 +105,6 @@
                         <h3>품절주의! 역대급 핫딜</h3>
                     </div>
                     <div class="hot_dael_box">
-                        <ul class="middle_img">
-                        </ul>
                     </div>
                     <div class="plus_img"></div>
                     <div id="middle_mid">
@@ -219,8 +222,9 @@
             </div>
         </div>
     </middle>
-    <script src="../javascripts/button.js"></script>
-    <script src="../javascripts/main.js"></script>
+    <script src="./Carouselbutton.js"></script>
+    <script src="./main.js"></script>
+    <script src="./Carousel_mouseover.js"></script>
 </body>
 
 </html>
